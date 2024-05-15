@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+@import url(./greif_w.png);
+
+// general colors
+$body-bg: rgba(22, 65, 148, 1) !default;
+$body-color: #fff !default;
+$link-color: #CABA99 !default;
+$selection-bg: rgba(255, 255, 255, 0.9) !default;
+
+// headings
+$presentation-heading-font: "Noto Sans", sans-serif !default;
+
+// code blocks
+$code-block-bg: transparent !default;
+
+@mixin bodyBackground() {
+  background: url('./img/greif_w.png'), linear-gradient(135deg, rgba(22, 65, 148, 0.9), rgba(202, 186, 153, 0.9));
+  background-repeat: no-repeat;
+  background-size: 150px, cover;
+  background-position: 20px 30px, 0 0;
+}
+
+.infobox {
+  text-align: center;
+  background-color: rgba(202, 186, 153, 0.3);
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.center-xy {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+
+.r-stretch {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
