@@ -4,7 +4,7 @@ This is the repository of the dainst theme for a theme for using `Quarto` with `
 
 <img src="scr-template.png" width="100%"/>
 
-The code to create this example is [available here](https://github.com/dainst/dainst-revealjs-theme).
+The code to create this example is available [in the template directory]([ttps://github.com/dainst/dainst-revealjs-theme](https://github.com/dainst/dainst-revealjs-theme/tree/main/template)) of this repository.
 
 ## How to install
 
